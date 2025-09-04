@@ -2,7 +2,7 @@
 
 namespace Ritas\Lexorank;
 
-use Dede\Lexorank\Services\LexoRankGenerator;
+use Ritas\Lexorank\Services\LexoRankGenerator;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

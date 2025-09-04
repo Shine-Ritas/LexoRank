@@ -1,7 +1,7 @@
 <?php
 namespace Ritas\Lexorank\tests\models;
 
-use Dede\Lexorank\LexoRankTrait;
+use Ritas\Lexorank\LexoRankTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class LexoRankEntity extends Model

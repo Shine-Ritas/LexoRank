@@ -17,7 +17,7 @@ The `LexoRankTrait` is a trait that simplifies the process of managing sortable 
     In order to use `LexoRankTrait`, simply include it in your model:
 
     ```php
-    use Dede\Lexorank\LexoRankTrait;
+    use Ritas\Lexorank\LexoRankTrait;
 
     class CustomItem extends Model
     {

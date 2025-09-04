@@ -1,7 +1,7 @@
 <?php
 
-use Dede\Lexorank\tests\BaseTest;
-use Dede\Lexorank\tests\models\LexoRankEntity;
+use Ritas\Lexorank\tests\BaseTest;
+use Ritas\Lexorank\tests\models\LexoRankEntity;
 
 uses(BaseTest::class);
 
