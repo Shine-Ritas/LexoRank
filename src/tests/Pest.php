@@ -1,5 +1,5 @@
 <?php
-namespace Dede\Lexorank\tests;
+namespace Ritas\Lexorank\tests;
 
 
 

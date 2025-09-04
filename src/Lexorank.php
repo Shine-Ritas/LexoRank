@@ -1,6 +1,6 @@
 <?php
 
-namespace Dede\Lexorank;
+namespace Ritas\Lexorank;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,26 +1,26 @@
 {
-    "name": "dede/lexorank",
+    "name": "ritas/lexorank",
     "type": "library",
     "keywords": [
         "lexorank",
-        "dede"
+        "ritas"
     ],
     "license": "MIT",
     "author" : "Htet Shine Htwe",
     "autoload": {
         "psr-4": {
-            "Dede\\Lexorank\\": "src/"
+            "Ritas\\Lexorank\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dede\\Lexorank\\Tests\\": "tests/"
+            "Ritas\\Lexorank\\Tests\\": "tests/"
         }
     },
     "authors": [
         {
             "name": "Htet Shine Htwe",
-            "email": "htetshine.coin@gmail.com"
+            "email": "whoishsh@gmail.com"
         }
     ],
     "minimum-stability": "stable",

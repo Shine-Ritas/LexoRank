@@ -1,6 +1,6 @@
 <?php
 
-namespace Dede\Lexorank;
+namespace Ritas\Lexorank;
 
 class LexoRankServiceProvider extends \Illuminate\Support\ServiceProvider
 {

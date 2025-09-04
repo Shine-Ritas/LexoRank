@@ -1,5 +1,5 @@
 <?php
-namespace Dede\Lexorank\tests;
+namespace Ritas\Lexorank\tests;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 class BaseTest extends Orchestra

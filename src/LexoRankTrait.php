@@ -1,6 +1,6 @@
 <?php
 
-namespace Dede\Lexorank;
+namespace Ritas\Lexorank;
 
 use Dede\Lexorank\Services\LexoRankGenerator;
 use Illuminate\Database\Eloquent\Builder;

@@ -1,5 +1,6 @@
 <?php
 
+namespace Ritas\Lexorank\Exceptions;
 
 class LexoRankException extends \Exception
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dede\Lexorank\Services;
+namespace Ritas\Lexorank\Services;
 
 class LexoRankGenerator
 {

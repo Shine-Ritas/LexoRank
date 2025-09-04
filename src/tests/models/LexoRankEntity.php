@@ -1,5 +1,5 @@
 <?php
-namespace Dede\Lexorank\tests\models;
+namespace Ritas\Lexorank\tests\models;
 
 use Dede\Lexorank\LexoRankTrait;
 use Illuminate\Database\Eloquent\Model;
