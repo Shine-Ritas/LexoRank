@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Query\Builder as QueryBuilder;
-
+use Ritas\Lexorank\Exceptions\LexoRankException;
 // 
 trait LexoRankTrait
 {
@@ -74,7 +74,7 @@ trait LexoRankTrait
      *
      * @param Model $entity
      *
-     * @throws \LexoRankException
+     * @throws LexoRankException
      */
     public function moveBefore($entity)
     {
@@ -85,7 +85,7 @@ trait LexoRankTrait
      * @param string $action moveAfter/moveBefore
      * @param Model  $entity
      *
-     * @throws \LexoRankException
+     * @throws LexoRankException
      */
     public function move($action, $entity)
     {
@@ -103,7 +103,9 @@ trait LexoRankTrait
 
 
         $this->_transaction(function () use ($sortableField, $previous, $next) {
-            $this->setAttribute($sortableField, static::getNewPosition($previous, $next, true));
+            $prevStr = (string) $previous;
+            $nextStr = (string) ($next ?? '');
+            $this->setAttribute($sortableField, static::getNewPosition($prevStr, $nextStr, true));
             $this->save();
         });
     }
